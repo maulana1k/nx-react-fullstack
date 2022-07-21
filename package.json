@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node dist/apps/api/main.js",
-    "build": "nx run-many --target=build --projects=react,api",
-    "serve-app": "nx run-many --target=serve --projects=react,api",
+    "build": "yarn nx run-many --target=build --projects=react,api",
+    "serve-app": "yarn nx run-many --target=serve --projects=react,api",
     "test": "nx test"
   },
   "private": true,
